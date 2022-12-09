@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBOTS</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/2fec614d7c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header><h1>PROJECT #1: ROBOT</h1></header>
+    <p class="select"></p>
+    <section class="robots-section">
+        <figure id="randomRobot" class="robots">
+            <i class="fa-solid fa-robot"></i>
+            <figcaption>Random Robot</figcaption>
+        </figure>
+        <figure id="routeRobot" class="robots">
+            <i class="fa-solid fa-robot"></i>
+            <figcaption>Route Robot</figcaption>
+        </figure>
+        <figure id="goalOrientedRobot" class="robots">
+            <i class="fa-solid fa-robot" ></i>
+            <figcaption> Goal Oriented Robot</figcaption>
+        </figure>
+    </section>
+    <label for="num">Enter the number of parcels
+        <input type="number" name="" id="num" max="1000">
+        <button>Run</button>
+    </label>
+    <section id="run-box"></section>
+    <a href="#">Read about project</a>
+    <section id="info">
+        <p>This project is a sample automation. The robot moves through a virtual world, collecting gifts from a particular location and delivering it to the destinaton address. This project is a simplistic version as it has no animations yet.</p>
+        <p>To run the robot:</p>
+        <ul>
+            <li>Click any of the robot</li>
+            <li>Enter the number of gifts to be delivered</li>
+            <li>and hit the run button</li>
+        </ul>
+    </section>
+    <script src="./scripts/runRobot.js" type="module"></script>
+</body>
+</html>

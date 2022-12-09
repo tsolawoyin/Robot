@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Rubik+Microbe&family=Zen+Dots&display=swap');
+:root {
+    box-sizing: border-box;
+    font-size: 1em;
+    font-family: 'Outfit';
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: "Zen Dots", cursive;
+    text-align: center;
+    padding: 2em;
+    font-size: 2.5rem;
+    color: rgb(200, 34,59);
+}
+
+.robots-section {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: space-evenly;
+    font-size: 2em;
+    gap: 2em;
+}
+
+i, figcaption {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+figure:nth-child(2n) {
+    border: 1px solid black;
+    border-radius: .8em;
+    border-top-right-radius: 23px;
+}
+
+figure:nth-child(2n + 1) {
+    border: 1px solid black;
+    border-bottom-left-radius: 23px;
+}
+figure:nth-child(3) {
+    border: 1px solid black;
+    border-bottom-right-radius: 23px;
+}
+
+figcaption {
+    color: rgb(200, 34,59);
+}
+
+label {
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 1.4em;
+}
+
+label input, button {
+    border-radius: 4px;
+    padding: .7em;
+    font-family: 'Outfit';
+}
+
+#run-box {
+    padding-bottom: 2em;
+    width: 50%;
+    margin: auto;
+    max-width: 500px;
+}
+
+a {
+    display:block;
+    width: 15%;
+    text-align: center;
+    margin: auto;
+}
+
+#info {
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    display: none;
+}
+
+.select {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+
+}
